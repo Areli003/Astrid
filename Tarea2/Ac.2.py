@@ -1,0 +1,7 @@
+print("ingrese su nombre y sus tres notas para calcular el promedio") 
+nombre = input("ingrese su nombre: ") 
+nota1 = float(input("ingrese la primera nota: ")) 
+nota2 = float(input("ingrese la segunda nota: ")) 
+nota3 = float(input("ingrese la tercera nota: ")) 
+promedio = round((nota1 + nota2 + nota3) / 3, 2) 
+print("el promedio de", nombre, "es: ", promedio) 
